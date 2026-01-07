@@ -1,0 +1,15 @@
+{
+  "name": "holis-tools",
+  "owner": {
+    "name": "Holis Hsu",
+    "email": "holis@ichef.com"
+  },
+  "plugins": [
+    {
+      "name": "holis-claude-tool",
+      "source": ".",
+      "description": "Holis's development tools and skills for solving Asana issues and development workflows",
+      "version": "1.0.1"
+    }
+  ]
+}
