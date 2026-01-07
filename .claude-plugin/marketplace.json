@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "holis-claude-tool",
-      "source": ".",
+      "source": "./",
       "description": "Holis's development tools and skills for solving Asana issues and development workflows",
       "version": "1.0.2"
     }
