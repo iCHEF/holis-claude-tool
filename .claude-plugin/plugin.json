@@ -1,0 +1,13 @@
+{
+  "name": "holis-claude-tool",
+  "version": "1.0.0",
+  "description": "Holis's development tools and skills for solving Asana issues and development workflows",
+  "author": {
+    "name": "Holis Hsu",
+    "email": "holis@ichef.com"
+  },
+  "homepage": "https://github.com/iCHEF/holis-claude-tool",
+  "repository": "https://github.com/iCHEF/holis-claude-tool",
+  "license": "MIT",
+  "keywords": ["asana", "development", "workflow", "productivity"]
+}

@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (if you add any scripts)
+node_modules/
+
+# Logs
+*.log
