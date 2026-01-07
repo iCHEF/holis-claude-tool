@@ -15,17 +15,21 @@ Comprehensive workflow for solving issues from Asana. Use when you're asked to s
 
 ## Installation
 
-### Method 1: Direct Installation
-
-Install directly from GitHub:
+### Step 1: Add Marketplace
 
 ```shell
-/plugin install holis-claude-tool --source github --repo iCHEF/holis-claude-tool
+/plugin marketplace add iCHEF/holis-claude-tool
 ```
 
-### Method 2: Add to Project Settings (Recommended for Teams)
+### Step 2: Install Plugin
 
-Add this to your project's `.claude/settings.json`:
+```shell
+/plugin install holis-claude-tool@iCHEF_holis_claude_tool
+```
+
+### Alternative: Auto-Install for Teams
+
+Add this to your project's `.claude/settings.json` for automatic installation:
 
 ```json
 {
