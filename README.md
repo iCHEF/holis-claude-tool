@@ -15,19 +15,39 @@ Comprehensive workflow for solving issues from Asana. Use when you're asked to s
 
 ## Installation
 
-### Step 1: Add Marketplace
+### Method 1: Direct Installation
+
+Install directly from GitHub:
 
 ```shell
-/plugin marketplace add iCHEF/holis-claude-tool
+/plugin install holis-claude-tool --source github --repo iCHEF/holis-claude-tool
 ```
 
-### Step 2: Install Plugin
+### Method 2: Add to Project Settings (Recommended for Teams)
 
-```shell
-/plugin install holis-claude-tool@iCHEF_holis_claude_tool
+Add this to your project's `.claude/settings.json`:
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "holis-tools": {
+      "source": {
+        "source": "github",
+        "repo": "iCHEF/holis-claude-tool"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "holis-claude-tool@holis-tools": true
+  }
+}
 ```
 
-### Step 3: Verify
+Team members will be prompted to install automatically when working on the project.
+
+### Verify Installation
+
+Ask Claude:
 
 ```
 What Skills are available?
@@ -54,7 +74,7 @@ Claude will automatically use the `solve-asana-issue` skill to:
 To get the latest version:
 
 ```shell
-/plugin update holis-claude-tool@iCHEF_holis_claude_tool
+/plugin update holis-claude-tool
 ```
 
 ## Version History
